@@ -1,0 +1,1176 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\lab1_led.p1
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\lab1_led.p1
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\lab1_led.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\Basic Robot movement (18f46k80)\lab1_led.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\Basic Robot movement (18f46k80)\delay.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|Untitled.c|delay.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\Basic Robot movement (18f46k80)\lcd.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\Basic Robot movement (18f46k80)\servo.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\lab1_led.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\delay.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\lcd.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File010]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\servo.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File011]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\eeprom.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File012]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\line_follow.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File013]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\lab1_led.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File014]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\delay.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File015]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\lcd.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File016]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\servo.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File017]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\eeprom.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File018]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\line_follow.o
+Folder=Intermediary
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File019]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File020]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File021]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.sym
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File022]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.map
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File023]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.hxl
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File024]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\startup.lst
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File025]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\startup.rlf
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File026]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\doprnt.p1
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File027]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\doprnt.pre
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File028]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.obj
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File029]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.lst
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File030]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.rlf
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File031]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\pic18lf46k80\18lf46k80.sdb
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File032]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File033]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File034]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.sym
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File035]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.map
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File036]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.hxl
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File037]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\startup.lst
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File038]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\startup.rlf
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File039]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\doprnt.p1
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File040]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\doprnt.pre
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File041]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.obj
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File042]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.lst
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File043]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.rlf
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File044]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\18lf46k80.sdb
+Folder=Output
+DeviceName=PIC18LF46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File045]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File046]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File047]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.sym
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File048]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.map
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File049]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.hxl
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File050]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\startup.lst
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File051]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\startup.rlf
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File052]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\doprnt.p1
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File053]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\doprnt.pre
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File054]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.obj
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File055]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.lst
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File056]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.rlf
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File057]
+Location=D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\nokia 5110\18lf46k80.sdb
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.66\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=4,3,2,1
+TraceCmdString=
+DebugOptions=
+[File058]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File059]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File060]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.sym
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File061]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.map
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File062]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.hxl
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File063]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\startup.lst
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File064]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\startup.rlf
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File065]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\doprnt.p1
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File066]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\doprnt.pre
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File067]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.obj
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File068]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.lst
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File069]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.rlf
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File070]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\18f46k80 servo\18lf46k80.sdb
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File071]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File072]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File073]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.sym
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File074]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.map
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File075]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.hxl
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File076]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\startup.lst
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File077]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\startup.rlf
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File078]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\doprnt.p1
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File079]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\doprnt.pre
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File080]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.obj
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File081]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.lst
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File082]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.rlf
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File083]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\18lf46k80.sdb
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC-18\9.80\bin\picc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=5,4,2,1
+TraceCmdString=
+DebugOptions=
+[File084]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\Basic Robot movement (18f46k80)\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File085]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\Basic Robot movement (18f46k80)\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File086]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File087]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\Basic Robot movement (18f46k80)\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File088]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\18lf46k80.cof
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File089]
+Location=C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\line follower (18f46k80) - 2-21-13 1534\18lf46k80.hex
+Folder=Output
+DeviceName=PIC18F46K80
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|lab1_led.c|delay.c|lcd.c|servo.c|C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robots\line following\18f46k80\eeprom.c|line_follow.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files (x86)\Microchip\mplabc18\v3.40\bin\mcc18.exe

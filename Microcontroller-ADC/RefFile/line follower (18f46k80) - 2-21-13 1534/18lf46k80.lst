@@ -1,0 +1,783 @@
+
+
+HI-TECH Software PIC18 PRO Macro Assembler V9.80 build 11162 
+                                                                                               Wed Oct 10 17:06:12 2012
+
+HI-TECH Software Omniscient Code Generator (PRO mode) build 11162
+     1                           	processor	18F46K80
+     2                           	fnconf	rparam,??,?,0
+     3                           	opt	pw 120
+     4                           	opt	pm
+     5                           	psect	intcode,global,reloc=2,class=CODE,delta=1
+     6                           	psect	cinit,global,reloc=2,class=CODE,delta=1
+     7                           	psect	bssCOMRAM,global,class=COMRAM,space=1,delta=1
+     8                           	psect	cstackCOMRAM,global,class=COMRAM,space=1,delta=1
+     9                           	psect	text0,global,reloc=2,class=CODE,delta=1
+    10                           	psect	text1,global,reloc=2,class=CODE,delta=1
+    11                           	psect	text2,global,reloc=2,class=CODE,delta=1
+    12                           	psect	intsave_regs,global,class=BIGRAM,space=1,delta=1
+    13                           	psect	rparam,global,class=COMRAM,space=1,delta=1
+    14                           	psect	pa_nodes,global,class=CODE,delta=1
+    15  0000                     _ADCON0	set	4034
+    16  0000                     _ADCON1	set	4033
+    17  0000                     _ADCON2	set	4032
+    18  0000                     _INTCON	set	4082
+    19  0000                     _INTCON2	set	4081
+    20  0000                     _IPR1	set	3999
+    21  0000                     _LATB	set	3978
+    22  0000                     _LATD	set	3980
+    23  0000                     _OSCCON	set	4051
+    24  0000                     _PIE1	set	3997
+    25  0000                     _PIE1bits	set	3997
+    26  0000                     _PIR1bits	set	3998
+    27  0000                     _PORTB	set	3969
+    28  0000                     _T0CONbits	set	4053
+    29  0000                     _T1CONbits	set	4045
+    30  0000                     _TMR0H	set	4055
+    31  0000                     _TMR0L	set	4054
+    32  0000                     _TMR1H	set	4047
+    33  0000                     _TMR1L	set	4046
+    34  0000                     _TRISA	set	3986
+    35  0000                     _TRISB	set	3987
+    36  0000                     _TRISD	set	3989
+    37  0000                     _PLLEN	set	31966
+    38  0000                     _TMR0IF	set	32658
+    39  0000                     _TMR1IF	set	31984
+    40                           intcon	equ	0xFF2
+    41                           intcon2	equ	0xFF1
+    42                           
+    43 ;; *************** function _high_isr *****************
+    44 ;; Defined at:
+    45 ;;		line 18 in file "C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\lab1_led.c"
+    46 ;; Parameters:    Size  Location     Type
+    47 ;;		None
+    48 ;; Auto vars:     Size  Location     Type
+    49 ;;		None
+    50 ;; Return value:  Size  Location     Type
+    51 ;;		None               void
+    52 ;; Registers used:
+    53 ;;		wreg, status,2, status,0
+    54 ;; Tracked objects:
+    55 ;;		On entry : 0/0
+    56 ;;		On exit  : 0/0
+    57 ;;		Unchanged: FFFFFFFF/0
+    58 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK1
+      +1  BANK12  BANK13  BANK14
+    59 ;;      Params:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+    60 ;;      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+    61 ;;      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+    62 ;;      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+    63 ;;Total ram usage:        0 bytes
+    64 ;; Hardware stack levels used:    1
+    65 ;; This function calls:
+    66 ;;		Nothing
+    67 ;; This function is called by:
+    68 ;;		Interrupt level 2
+    69 ;; This function uses a non-reentrant model
+    70 ;;
+    71                           
+    72                           	psect	intcode
+    73  000008                     __pintcode:
+    74                           	opt stack 0
+    75  000008                     _high_isr:
+    76                           	opt stack 29
+    77  000008                     
+    78                           ;lab1_led.c: 19: if(TMR0IF)
+    79  000008  A4F2               	btfss	intcon,2,c	;volatile
+    80  00000A  D001               	goto	i2u1_41
+    81  00000C  D001               	goto	i2u1_40
+    82  00000E                     i2u1_41:
+    83  00000E  D00C               	goto	i2l687
+    84  000010                     i2u1_40:
+    85  000010                     
+    86                           ;lab1_led.c: 20: {
+    87                           ;lab1_led.c: 21: T0CONbits.TMR0ON = 0;
+    88  000010  9ED5               	bcf	4053,7,c	;volatile
+    89  000012                     
+    90                           ;lab1_led.c: 22: TMR0H = 0x63;
+    91  000012  0E63               	movlw	99
+    92  000014  6ED7               	movwf	4055,c	;volatile
+    93                           
+    94                           ;lab1_led.c: 23: TMR0L = 0xC0;
+    95  000016  0EC0               	movlw	192
+    96  000018  6ED6               	movwf	4054,c	;volatile
+    97                           
+    98                           ;lab1_led.c: 24: TMR1H = 0xe8;
+    99  00001A  0EE8               	movlw	232
+   100  00001C  6ECF               	movwf	4047,c	;volatile
+   101                           
+   102                           ;lab1_led.c: 25: TMR1L = 0x90;
+   103  00001E  0E90               	movlw	144
+   104  000020  6ECE               	movwf	4046,c	;volatile
+   105  000022                     
+   106                           ;lab1_led.c: 26: count = 0;
+   107  000022  6A13               	clrf	_count,c
+   108  000024                     
+   109                           ;lab1_led.c: 27: TMR0IF = 0;
+   110  000024  94F2               	bcf	intcon,2,c	;volatile
+   111  000026                     
+   112                           ;lab1_led.c: 29: T0CONbits.TMR0ON = 1;
+   113  000026  8ED5               	bsf	4053,7,c	;volatile
+   114  000028                     i2l687:
+   115                           
+   116                           ;lab1_led.c: 30: }
+   117                           ;lab1_led.c: 33: if(PIR1bits.TMR1IF == 1 && PIE1bits.TMR1IE == 1)
+   118  000028  A09E               	btfss	3998,0,c	;volatile
+   119  00002A  D001               	goto	i2u2_41
+   120  00002C  D001               	goto	i2u2_40
+   121  00002E                     i2u2_41:
+   122  00002E  D028               	goto	i2l82
+   123  000030                     i2u2_40:
+   124  000030  A09D               	btfss	3997,0,c	;volatile
+   125  000032  D001               	goto	i2u3_41
+   126  000034  D001               	goto	i2u3_40
+   127  000036                     i2u3_41:
+   128  000036  D024               	goto	i2l82
+   129  000038                     i2u3_40:
+   130  000038                     
+   131                           ;lab1_led.c: 34: {
+   132                           ;lab1_led.c: 35: T1CONbits.TMR1ON = 0;
+   133  000038  90CD               	bcf	4045,0,c	;volatile
+   134  00003A                     
+   135                           ;lab1_led.c: 36: count++;
+   136  00003A  2A13               	incf	_count,f,c
+   137                           
+   138                           ;lab1_led.c: 37: switch(count){
+   139  00003C  D014               	goto	i2l705
+   140  00003E                     i2l695:
+   141  00003E  0E01               	movlw	1
+   142  000040  6E81               	movwf	3969,c	;volatile
+   143                           
+   144                           ;lab1_led.c: 40: TMR1H = servo_time_val[0] >> 8 & 0x00ff;
+   145  000042  5002               	movf	_servo_time_val+1,w,c
+   146  000044  6ECF               	movwf	4047,c	;volatile
+   147  000046                     
+   148                           ;lab1_led.c: 41: TMR1L = servo_time_val[0] & 0x0011;
+   149  000046  5001               	movf	_servo_time_val,w,c
+   150  000048  0B11               	andlw	17
+   151  00004A  6ECE               	movwf	4046,c	;volatile
+   152                           
+   153                           ;lab1_led.c: 42: break;
+   154  00004C  D017               	goto	i2l79
+   155  00004E                     i2l699:
+   156  00004E  0E02               	movlw	2
+   157  000050  6E81               	movwf	3969,c	;volatile
+   158                           
+   159                           ;lab1_led.c: 45: TMR1H = servo_time_val[1] >> 8 & 0x00ff;
+   160  000052  5004               	movf	_servo_time_val+3,w,c
+   161  000054  6ECF               	movwf	4047,c	;volatile
+   162  000056                     
+   163                           ;lab1_led.c: 46: TMR1L = servo_time_val[1] & 0x0011;
+   164  000056  5003               	movf	_servo_time_val+2,w,c
+   165  000058  0B11               	andlw	17
+   166  00005A  6ECE               	movwf	4046,c	;volatile
+   167                           
+   168                           ;lab1_led.c: 47: break;
+   169  00005C  D00F               	goto	i2l79
+   170  00005E                     i2l81:
+   171  00005E  6A81               	clrf	3969,c	;volatile
+   172                           
+   173                           ;lab1_led.c: 50: TMR1H = 0x00;
+   174  000060  6ACF               	clrf	4047,c	;volatile
+   175                           
+   176                           ;lab1_led.c: 51: TMR1L = 0x00;
+   177  000062  6ACE               	clrf	4046,c	;volatile
+   178                           
+   179                           ;lab1_led.c: 52: break;
+   180  000064  D00B               	goto	i2l79
+   181  000066                     i2l705:
+   182  000066  5013               	movf	_count,w,c
+   183                           
+   184                           ; Switch size 1, requested type "space"
+   185                           ; Number of cases is 3, Range of values is 1 to 3
+   186                           ; switch strategies available:
+   187                           ; Name         Instructions Cycles
+   188                           ; simple_byte           10     6 (average)
+   189                           ;	Chosen strategy is simple_byte
+   190  000068  0A01               	xorlw	1	; case 1
+   191  00006A  B4D8               	btfsc	status,2,c
+   192  00006C  D7E8               	goto	i2l695
+   193  00006E  0A03               	xorlw	3	; case 2
+   194  000070  B4D8               	btfsc	status,2,c
+   195  000072  D7ED               	goto	i2l699
+   196  000074  0A01               	xorlw	1	; case 3
+   197  000076  B4D8               	btfsc	status,2,c
+   198  000078  D7F2               	goto	i2l81
+   199  00007A  D000               	goto	i2l79
+   200  00007C                     i2l79:
+   201                           
+   202                           ;lab1_led.c: 57: TMR1IF = 0;
+   203  00007C  909E               	bcf	3998,0,c	;volatile
+   204                           
+   205                           ;lab1_led.c: 58: T1CONbits.TMR1ON = 1;
+   206  00007E  80CD               	bsf	4045,0,c	;volatile
+   207  000080                     i2l82:
+   208  000080  0011               	retfie		f
+   209  000082                     __end_of_high_isr:
+   210                           	opt stack 0
+   211  0000                     intcon	equ	0xFF2
+   212                           intcon2	equ	0xFF1
+   213                           status	equ	0xFD8
+   214                           
+   215                           ; #config settings
+   216                           
+   217                           	psect	cinit
+   218  0000DE                     __pcinit:
+   219                           	opt stack 0
+   220  0000DE                     start_initialization:
+   221                           	opt stack 0
+   222                           
+   223                           ; Clear objects allocated to COMRAM (19 bytes)
+   224  0000DE  EE00  F001         	lfsr	0,__pbssCOMRAM
+   225  0000E2  0E13               	movlw	19
+   226  0000E4                     clear_0:
+   227  0000E4  6AEE               	clrf	postinc0,c
+   228  0000E6  06E8               	decf	wreg,f,c
+   229  0000E8  E1FD               	bnz	clear_0
+   230  0000EA                     end_of_initialization:
+   231                           	opt stack 0
+   232  0000EA  0100               	movlb	0
+   233  0000EC  EF43  F000         	goto	_main	;jump to C main() function
+   234                           intcon	equ	0xFF2
+   235                           intcon2	equ	0xFF1
+   236                           postinc0	equ	0xFEE
+   237                           wreg	equ	0xFE8
+   238                           status	equ	0xFD8
+   239                           
+   240                           	psect	bssCOMRAM
+   241  000001                     __pbssCOMRAM:
+   242                           	opt stack 0
+   243  000001                     _servo_time_val:
+   244                           	opt stack 0
+   245  000001                     	ds	18
+   246  000013                     _count:
+   247                           	opt stack 0
+   248  000013                     	ds	1
+   249                           intcon	equ	0xFF2
+   250                           intcon2	equ	0xFF1
+   251                           postinc0	equ	0xFEE
+   252                           wreg	equ	0xFE8
+   253                           status	equ	0xFD8
+   254                           
+   255                           	psect	cstackCOMRAM
+   256  000000                     __pcstackCOMRAM:
+   257                           	opt stack 0
+   258  000000                     ?_loop:
+   259                           	opt stack 0
+   260  000000                     ??_loop:
+   261                           	opt stack 0
+   262  000000                     ?_high_isr:
+   263                           	opt stack 0
+   264  000000                     ??_high_isr:
+   265                           	opt stack 0
+   266  000000                     ?_main:
+   267                           	opt stack 0
+   268  000000                     ??_main:
+   269                           	opt stack 0
+   270                           intcon	equ	0xFF2
+   271                           intcon2	equ	0xFF1
+   272                           postinc0	equ	0xFEE
+   273                           wreg	equ	0xFE8
+   274                           status	equ	0xFD8
+   275                           
+   276                           ; 0 bytes @ 0x0
+   277 ;;
+   278 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+   279 ;;
+   280 ;; *************** function _main *****************
+   281 ;; Defined at:
+   282 ;;		line 73 in file "C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\lab1_led.c"
+   283 ;; Parameters:    Size  Location     Type
+   284 ;;		None
+   285 ;; Auto vars:     Size  Location     Type
+   286 ;;		None
+   287 ;; Return value:  Size  Location     Type
+   288 ;;		None               void
+   289 ;; Registers used:
+   290 ;;		wreg, fsr0l, fsr0h, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, pclat, tosl, structret, tblptrl, tblptrh, tblptr
+      +u, prodl, prodh, bsr, cstack
+   291 ;; Tracked objects:
+   292 ;;		On entry : 0/0
+   293 ;;		On exit  : 0/0
+   294 ;;		Unchanged: FFFFFFFF/0
+   295 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK1
+      +1  BANK12  BANK13  BANK14
+   296 ;;      Params:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   297 ;;      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   298 ;;      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   299 ;;      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   300 ;;Total ram usage:        0 bytes
+   301 ;; Hardware stack levels required when called:    2
+   302 ;; This function calls:
+   303 ;;		_loop
+   304 ;; This function is called by:
+   305 ;;		Startup code after reset
+   306 ;; This function uses a non-reentrant model
+   307 ;;
+   308                           
+   309                           	psect	text0
+   310  000086                     __ptext0:
+   311                           	opt stack 0
+   312  000086                     _main:
+   313                           	opt stack 29
+   314                           
+   315                           ;lab1_led.c: 74: OSCCON = 0b01110000;
+   316  000086  0E70               	movlw	112
+   317  000088  6ED3               	movwf	4051,c	;volatile
+   318                           
+   319                           ;lab1_led.c: 75: PLLEN = 1;
+   320  00008A  8C9B               	bsf	3995,6,c	;volatile
+   321                           
+   322                           ;lab1_led.c: 76: ADCON0 = 0;
+   323  00008C  6AC2               	clrf	4034,c	;volatile
+   324                           
+   325                           ;lab1_led.c: 77: ADCON1 = 0;
+   326  00008E  6AC1               	clrf	4033,c	;volatile
+   327                           
+   328                           ;lab1_led.c: 78: ADCON2 = 0b000000011;
+   329  000090  0E03               	movlw	3
+   330  000092  6EC0               	movwf	4032,c	;volatile
+   331                           
+   332                           ;lab1_led.c: 79: TRISD = 0b00000000;
+   333  000094  6A95               	clrf	3989,c	;volatile
+   334                           
+   335                           ;lab1_led.c: 80: TRISA = 0b00000000;
+   336  000096  6A92               	clrf	3986,c	;volatile
+   337                           
+   338                           ;lab1_led.c: 81: TRISB = 0b00000000;
+   339  000098  6A93               	clrf	3987,c	;volatile
+   340                           
+   341                           ;lab1_led.c: 82: LATB = 0;
+   342  00009A  6A8A               	clrf	3978,c	;volatile
+   343                           
+   344                           ;lab1_led.c: 84: INTCON = 0b11100000;
+   345  00009C  0EE0               	movlw	224
+   346  00009E  6EF2               	movwf	intcon,c	;volatile
+   347                           
+   348                           ;lab1_led.c: 85: INTCON2 = 0b00000100;
+   349  0000A0  0E04               	movlw	4
+   350  0000A2  6EF1               	movwf	intcon2,c	;volatile
+   351                           
+   352                           ;lab1_led.c: 86: PIE1 = 0b0000001;
+   353  0000A4  0E01               	movlw	1
+   354  0000A6  6E9D               	movwf	3997,c	;volatile
+   355                           
+   356                           ;lab1_led.c: 87: IPR1 = 0b0000001;
+   357  0000A8  6E9F               	movwf	3999,c	;volatile
+   358                           
+   359                           ;lab1_led.c: 89: T0CONbits.T08BIT = 0;
+   360  0000AA  9CD5               	bcf	4053,6,c	;volatile
+   361                           
+   362                           ;lab1_led.c: 90: T0CONbits.T0CS = 0;
+   363  0000AC  9AD5               	bcf	4053,5,c	;volatile
+   364                           
+   365                           ;lab1_led.c: 91: T0CONbits.PSA = 0;
+   366  0000AE  96D5               	bcf	4053,3,c	;volatile
+   367                           
+   368                           ;lab1_led.c: 92: T0CONbits.T0PS2 = 0;
+   369  0000B0  94D5               	bcf	4053,2,c	;volatile
+   370                           
+   371                           ;lab1_led.c: 93: T0CONbits.T0PS1 = 0;
+   372  0000B2  92D5               	bcf	4053,1,c	;volatile
+   373                           
+   374                           ;lab1_led.c: 94: T0CONbits.T0PS0 = 1;
+   375  0000B4  80D5               	bsf	4053,0,c	;volatile
+   376                           
+   377                           ;lab1_led.c: 95: TMR0H = 0x63;
+   378  0000B6  0E63               	movlw	99
+   379  0000B8  6ED7               	movwf	4055,c	;volatile
+   380                           
+   381                           ;lab1_led.c: 96: TMR0L = 0xC0;
+   382  0000BA  0EC0               	movlw	192
+   383  0000BC  6ED6               	movwf	4054,c	;volatile
+   384                           
+   385                           ;lab1_led.c: 98: T0CONbits.TMR0ON = 1;
+   386  0000BE  8ED5               	bsf	4053,7,c	;volatile
+   387                           
+   388                           ;lab1_led.c: 103: T1CONbits.T1CKPS1 = 0;
+   389  0000C0  9ACD               	bcf	4045,5,c	;volatile
+   390                           
+   391                           ;lab1_led.c: 104: T1CONbits.T1CKPS0 = 1;
+   392  0000C2  88CD               	bsf	4045,4,c	;volatile
+   393                           
+   394                           ;lab1_led.c: 105: T1CONbits.T1OSCEN = 1;
+   395  0000C4  86CD               	bsf	4045,3,c	;volatile
+   396                           
+   397                           ;lab1_led.c: 106: T1CONbits.NOT_T1SYNC = 1;
+   398  0000C6  84CD               	bsf	4045,2,c	;volatile
+   399                           
+   400                           ;lab1_led.c: 107: T1CONbits.TMR1CS = 0;
+   401  0000C8  0E3F               	movlw	-193
+   402  0000CA  16CD               	andwf	4045,f,c	;volatile
+   403                           
+   404                           ;lab1_led.c: 109: TMR1H = 0xe8;
+   405  0000CC  0EE8               	movlw	232
+   406  0000CE  6ECF               	movwf	4047,c	;volatile
+   407                           
+   408                           ;lab1_led.c: 110: TMR1L = 0x90;
+   409  0000D0  0E90               	movlw	144
+   410  0000D2  6ECE               	movwf	4046,c	;volatile
+   411                           
+   412                           ;lab1_led.c: 111: T1CONbits.TMR1ON = 1;
+   413  0000D4  80CD               	bsf	4045,0,c	;volatile
+   414                           
+   415                           ;lab1_led.c: 112: loop();
+   416  0000D6  EC78  F000         	call	_loop	;wreg free
+   417  0000DA  EF41  F000         	goto	start
+   418  0000DE                     __end_of_main:
+   419                           	opt stack 0
+   420                           intcon	equ	0xFF2
+   421                           intcon2	equ	0xFF1
+   422                           postinc0	equ	0xFEE
+   423                           wreg	equ	0xFE8
+   424                           status	equ	0xFD8
+   425                           
+   426 ;; *************** function _loop *****************
+   427 ;; Defined at:
+   428 ;;		line 117 in file "C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\lab1_led.c"
+   429 ;; Parameters:    Size  Location     Type
+   430 ;;		None
+   431 ;; Auto vars:     Size  Location     Type
+   432 ;;		None
+   433 ;; Return value:  Size  Location     Type
+   434 ;;		None               void
+   435 ;; Registers used:
+   436 ;;		None
+   437 ;; Tracked objects:
+   438 ;;		On entry : 0/0
+   439 ;;		On exit  : 0/0
+   440 ;;		Unchanged: FFFFFFFF/0
+   441 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK1
+      +1  BANK12  BANK13  BANK14
+   442 ;;      Params:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   443 ;;      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   444 ;;      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   445 ;;      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       
+      +0       0       0       0
+   446 ;;Total ram usage:        0 bytes
+   447 ;; Hardware stack levels used:    1
+   448 ;; Hardware stack levels required when called:    1
+   449 ;; This function calls:
+   450 ;;		Nothing
+   451 ;; This function is called by:
+   452 ;;		_main
+   453 ;; This function uses a non-reentrant model
+   454 ;;
+   455                           
+   456                           	psect	text1
+   457  0000F0                     __ptext1:
+   458                           	opt stack 0
+   459  0000F0                     _loop:
+   460                           	opt stack 29
+   461  0000F0                     l93:
+   462                           
+   463                           ;lab1_led.c: 120: {
+   464                           ;lab1_led.c: 121: LATD = 255;
+   465  0000F0  688C               	setf	3980,c	;volatile
+   466  0000F2  D7FE               	goto	l93
+   467                           intcon	equ	0xFF2
+   468                           intcon2	equ	0xFF1
+   469                           postinc0	equ	0xFEE
+   470                           wreg	equ	0xFE8
+   471                           status	equ	0xFD8
+   472                           
+   473                           	psect	text2
+   474  000000                     __ptext2:
+   475                           	opt stack 0
+   476  000000                     __end_of_loop:
+   477                           	opt stack 0
+   478                           intcon	equ	0xFF2
+   479                           intcon2	equ	0xFF1
+   480                           postinc0	equ	0xFEE
+   481                           wreg	equ	0xFE8
+   482                           status	equ	0xFD8
+   483                           intcon	equ	0xFF2
+   484                           intcon2	equ	0xFF1
+   485                           postinc0	equ	0xFEE
+   486                           wreg	equ	0xFE8
+   487                           status	equ	0xFD8
+   488                           
+   489                           	psect	rparam
+   490  0000                     intcon	equ	0xFF2
+   491                           intcon2	equ	0xFF1
+   492                           postinc0	equ	0xFEE
+   493                           wreg	equ	0xFE8
+   494                           status	equ	0xFD8
+   495                           intcon	equ	0xFF2
+   496                           intcon2	equ	0xFF1
+   497                           postinc0	equ	0xFEE
+   498                           wreg	equ	0xFE8
+   499                           status	equ	0xFD8
+
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         19
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMRAM           95      0      19
+    BANK0           160      0       0
+    BANK1           256      0       0
+    BANK2           256      0       0
+    BANK3           256      0       0
+    BANK4           256      0       0
+    BANK5           256      0       0
+    BANK6           256      0       0
+    BANK7           256      0       0
+    BANK8           256      0       0
+    BANK9           256      0       0
+    BANK10          256      0       0
+    BANK11          256      0       0
+    BANK12          256      0       0
+    BANK13          256      0       0
+    BANK14           65      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMRAM
+
+    None.
+
+Critical Paths under _high_isr in COMRAM
+
+    None.
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Critical Paths under _high_isr in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _high_isr in BANK1
+
+    None.
+
+Critical Paths under _main in BANK2
+
+    None.
+
+Critical Paths under _high_isr in BANK2
+
+    None.
+
+Critical Paths under _main in BANK3
+
+    None.
+
+Critical Paths under _high_isr in BANK3
+
+    None.
+
+Critical Paths under _main in BANK4
+
+    None.
+
+Critical Paths under _high_isr in BANK4
+
+    None.
+
+Critical Paths under _main in BANK5
+
+    None.
+
+Critical Paths under _high_isr in BANK5
+
+    None.
+
+Critical Paths under _main in BANK6
+
+    None.
+
+Critical Paths under _high_isr in BANK6
+
+    None.
+
+Critical Paths under _main in BANK7
+
+    None.
+
+Critical Paths under _high_isr in BANK7
+
+    None.
+
+Critical Paths under _main in BANK8
+
+    None.
+
+Critical Paths under _high_isr in BANK8
+
+    None.
+
+Critical Paths under _main in BANK9
+
+    None.
+
+Critical Paths under _high_isr in BANK9
+
+    None.
+
+Critical Paths under _main in BANK10
+
+    None.
+
+Critical Paths under _high_isr in BANK10
+
+    None.
+
+Critical Paths under _main in BANK11
+
+    None.
+
+Critical Paths under _high_isr in BANK11
+
+    None.
+
+Critical Paths under _main in BANK12
+
+    None.
+
+Critical Paths under _high_isr in BANK12
+
+    None.
+
+Critical Paths under _main in BANK13
+
+    None.
+
+Critical Paths under _high_isr in BANK13
+
+    None.
+
+Critical Paths under _main in BANK14
+
+    None.
+
+Critical Paths under _high_isr in BANK14
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 0     0      0       0
+                               _loop
+ ---------------------------------------------------------------------------------
+ (1) _loop                                                 0     0      0       0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (2) _high_isr                                             0     0      0       0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 2
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+   _loop
+
+ _high_isr (ROOT)
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BIGRAM             E40      0       0      35        0.0%
+EEDATA             400      0       0       0        0.0%
+BITBANK13          100      0       0      31        0.0%
+BANK13             100      0       0      32        0.0%
+BITBANK12          100      0       0      29        0.0%
+BANK12             100      0       0      30        0.0%
+BITBANK11          100      0       0      27        0.0%
+BANK11             100      0       0      28        0.0%
+BITBANK10          100      0       0      25        0.0%
+BANK10             100      0       0      26        0.0%
+BITBANK9           100      0       0      23        0.0%
+BANK9              100      0       0      24        0.0%
+BITBANK8           100      0       0      21        0.0%
+BANK8              100      0       0      22        0.0%
+BITBANK7           100      0       0      19        0.0%
+BANK7              100      0       0      20        0.0%
+BITBANK6           100      0       0      17        0.0%
+BANK6              100      0       0      18        0.0%
+BITBANK5           100      0       0      15        0.0%
+BANK5              100      0       0      16        0.0%
+BITBANK4           100      0       0      13        0.0%
+BANK4              100      0       0      14        0.0%
+BITBANK3           100      0       0      11        0.0%
+BANK3              100      0       0      12        0.0%
+BITBANK2           100      0       0       9        0.0%
+BANK2              100      0       0      10        0.0%
+BITBANK1           100      0       0       7        0.0%
+BANK1              100      0       0       8        0.0%
+BITBANK0            A0      0       0       4        0.0%
+BANK0               A0      0       0       5        0.0%
+BITCOMRAM           5F      0       0       0        0.0%
+COMRAM              5F      0      13       1       20.0%
+BITBANK14           41      0       0      33        0.0%
+BANK14              41      0       0      34        0.0%
+BITSFR_2             0      0       0      40        0.0%
+SFR_2                0      0       0      40        0.0%
+BITSFR_1             0      0       0      40        0.0%
+SFR_1                0      0       0      40        0.0%
+BITSFR               0      0       0      40        0.0%
+SFR                  0      0       0      40        0.0%
+STACK                0      0       1       2        0.0%
+NULL                 0      0       0       0        0.0%
+ABS                  0      0      13       6        0.0%
+DATA                 0      0      14       3        0.0%
+CODE                 0      0       0       0        0.0%
+
+
+HI-TECH Software PICC-18 Macro Assembler V9.80 build 11162 
+Symbol Table                                                                                   Wed Oct 10 17:06:12 2012
+
+                  l93 00F0                   wreg 000FE8                  _LATB 000F8A                  _LATD 000F8C  
+                _IPR1 000F9F                  _PIE1 000F9D                  i2l81 005E                  i2l82 0080  
+                i2l79 007C                  _main 0086                  _loop 00F0                  start 0082  
+               ?_main 0000                 ?_loop 0000                 i2l701 0056                 i2l705 0066  
+               i2l681 0022                 i2l691 0038                 i2l683 0024                 i2l675 0008  
+               i2l693 003A                 i2l685 0026                 i2l677 0010                 i2l695 003E  
+               i2l679 0012                 i2l687 0028                 i2l697 0046                 i2l689 0030  
+               i2l699 004E                 _PLLEN 007CDE                 _TMR0H 000FD7                 _TMR1H 000FCF  
+               _TMR0L 000FD6                 _TMR1L 000FCE                 _PORTB 000F81                 _TRISA 000F92  
+               _TRISB 000F93                 _TRISD 000F95                 _count 0013                 status 000FD8  
+        __end_of_main 00DE          __end_of_loop 0000                ??_main 0000                ??_loop 0000  
+       __activetblptr 000000                _ADCON0 000FC2                _ADCON1 000FC1                _ADCON2 000FC0  
+              _INTCON 000FF2                _OSCCON 000FD3                _TMR0IF 007F92                _TMR1IF 007CF0  
+              i2u1_40 0010                i2u1_41 000E                i2u2_40 0030                i2u2_41 002E  
+              i2u3_40 0038                i2u3_41 0036      __end_of_high_isr 0082                clear_0 00E4  
+          __accesstop 0060        __pcstackCOMRAM 0000               _INTCON2 000FF1             ?_high_isr 0000  
+             __Hparam 0000               __Lparam 0000               __pcinit 00DE               __ramtop 0F00  
+             __ptext0 0086               __ptext1 00F0               __ptext2 0000             _T0CONbits 000FD5  
+           _T1CONbits 000FCD            ??_high_isr 0000  end_of_initialization 00EA               postinc0 000FEE  
+ start_initialization 00DE           __pbssCOMRAM 0001     __size_of_high_isr 007A             __pintcode 0008  
+            _PIE1bits 000F9D              _PIR1bits 000F9E              __Hrparam 0000              __Lrparam 0000  
+      _servo_time_val 0001              _high_isr 0008         __size_of_main 0058         __size_of_loop FF10  
+            intlevel2 0000  

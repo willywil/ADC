@@ -1,0 +1,22 @@
+Error[1205] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 178 : unknown member 'RXB0DBEN' in '__tag_846'
+Error[1131] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 178 : type mismatch in assignment
+Error[1205] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 687 : unknown member 'RXB0IF' in '__tag_960'
+Error[1131] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 687 : type mismatch in assignment
+Error[1205] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 696 : unknown member 'RXB0DBEN' in '__tag_846'
+Error[1117] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 699 : scalar type expected in 'if' statement
+Error[1205] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 711 : unknown member 'RXB1IF' in '__tag_960'
+Error[1131] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 711 : type mismatch in assignment
+Error[1205] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 753 : unknown member 'IRXIF' in '__tag_960'
+Error[1205] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 756 : unknown member 'IRXIF' in '__tag_960'
+Error[1131] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 756 : type mismatch in assignment
+Error[1117] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 756 : scalar type expected in 'if' statement
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 775 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 776 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 777 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 779 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 780 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 781 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 783 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 784 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 786 : call of function without prototype
+Warning[2058] C:\Programming\Pic Microcontrollers\8 bit pic\Wip\robot\18f46k80 basic robot\can18xx8.c 787 : call of function without prototype

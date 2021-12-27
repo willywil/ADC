@@ -1,0 +1,13 @@
+
+# 1 "D:\#My Stuff\Programming\Pic Microcontrollers\8 bit pic\pic18lf46k80\delay.c"
+
+
+
+void Delay_Ms(int del)
+{
+int x = 0;
+for(x; x < del; x++)
+{
+__delay_ms(1);
+}
+}

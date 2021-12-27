@@ -1,0 +1,21 @@
+   Address    Value   Field   Option                  Category                                          Setting                           
+
+                    BBSIZ   BB1K      Boot Block Size                        1K word Boot Block size                                      
+    300008        0F  CP0     OFF       Code Protect 00800-03FFF               Disabled                                                     
+                    CP1     OFF       Code Protect 04000-07FFF               Disabled                                                     
+                    CP2     OFF       Code Protect 08000-0BFFF               Disabled                                                     
+                    CP3     OFF       Code Protect 0C000-0FFFF               Disabled                                                     
+    300009        C0  CPB     OFF       Code Protect Boot                      Disabled                                                     
+                    CPD     OFF       Data EE Read Protect                   Disabled                                                     
+    30000A        0F  WRT0    OFF       Table Write Protect 00800-03FFF        Disabled                                                     
+                    WRT1    OFF       Table Write Protect 04000-07FFF        Disabled                                                     
+                    WRT2    OFF       Table Write Protect 08000-0BFFF        Disabled                                                     
+                    WRT3    OFF       Table Write Protect 0C000-0FFFF        Disabled                                                     
+    30000B        E0  WRTC    OFF       Config. Write Protect                  Disabled                                                     
+                    WRTB    OFF       Table Write Protect Boot               Disabled                                                     
+                    WRTD    OFF       Data EE Write Protect                  Disabled                                                     
+    30000C        0F  EBTR0   OFF       Table Read Protect 00800-03FFF         Disabled                                                     
+                    EBTR1   OFF       Table Read Protect 04000-07FFF         Disabled                                                     
+                    EBTR2   OFF       Table Read Protect 08000-0BFFF         Disabled                                                     
+                    EBTR3   OFF       Table Read Protect 0C000-0FFFF         Disabled                                                     
+    30000D        40  EBTRB   OFF       Table Read Protect Boot                Disabled                                                     
